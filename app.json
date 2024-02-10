@@ -1,0 +1,66 @@
+{
+    "name": "JARVIS X BOT",
+    "logo": "https://telegra.ph/file/83db3b7786ffa9948962b.jpg",
+    "description": "ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ʙᴏᴛ ",
+    "keywords": ["telegram"],
+    "stack": "container",
+    "env": {
+        "SESSION": {
+            "description": "jarvis_string_gen_bot string session here",
+            "required": true
+        },
+        "SESSION2": {
+            "description": "jarvis_string_gen_bot string session here",
+            "required": false
+        },
+        "SESSION3": {
+            "description": "jarvis_string_gen_bot string session here",
+            "required": false
+        },
+        "SESSION4": {
+            "description": "jarvis_string_gen_bot string session here",
+            "required": false
+        },
+        "SESSION5": {
+            "description": "jarvis_string_gen_bot string session here",
+            "required": false
+        },
+        "SESSION6": {
+            "description": "jarvis_string_gen_bot string session here",
+            "required": false
+        },
+        "SESSION7": {
+            "description": "jarvis_string_gen_bot string session here",
+            "required": false
+        },
+        "SESSION8": {
+            "description": "jarvis_string_gen_bot string session here",
+            "required": false
+        },
+        "SESSION9": {
+            "description": "jarvis_string_gen_bot string session here",
+            "required": false
+        },
+        "SESSION10": {
+            "description": "jarvis_string_gen_bot string session here",
+            "required": false
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "Who have Access Your Account But Rearly Plugins there",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
